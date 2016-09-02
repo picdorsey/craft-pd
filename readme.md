@@ -1,6 +1,6 @@
-# Pd plugin for Craft CMS
+# PD plugin for Craft CMS
 
-Piccirilli Dorsey business logic.
+An "in-house" business logic plugin for Piccirilli Dorsey, Inc.
 
 ## Installation
 
@@ -11,5 +11,5 @@ To install Pd, follow these steps:
 3. Install plugin in the Craft Control Panel under Settings > Plugins
 4. The plugin folder should be named `pd` for Craft to see it.  GitHub recently started appending `-master` (the branch name) to the name of the folder for zip file downloads.
 
-Pd works on Craft 2.4.x and Craft 2.5.x.
+PD works on Craft 2.4.x and Craft 2.5.x.
 
