@@ -6,5 +6,13 @@
         "notes": [
             "[Added] Initial release"
         ]
-    }
+    },
+    {
+        "version": "1.0.0",
+        "downloadUrl": "https://github.com/picdorsey/craft-pd/archive/master.zip",
+        "date": "2016-09-22T21:37:45.853Z",
+        "notes": [
+            "[Fixed] Consistent capitalization."
+        ]
+    },
 ]

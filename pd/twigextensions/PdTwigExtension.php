@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2016 Piccirilli Dorsey, Inc.
  * @link      http://picdorsey.com
  * @package   Pd
- * @since     1.0.0
+ * @since     1.0.1
  */
 
 namespace Craft;
@@ -16,7 +16,7 @@ namespace Craft;
 use Twig_Extension;
 use Twig_Filter_Method;
 
-class PdTwigExtension extends \Twig_Extension
+class PDTwigExtension extends \Twig_Extension
 {
     /**
      * @return string The extension name

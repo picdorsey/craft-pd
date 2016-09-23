@@ -8,12 +8,12 @@
  * @copyright Copyright (c) 2016 Piccirilli Dorsey, Inc.
  * @link      http://picdorsey.com
  * @package   Pd
- * @since     1.0.0
+ * @since     1.0.1
  */
 
 namespace Craft;
 
-class PdController extends BaseController
+class PDController extends BaseController
 {
 
     /**

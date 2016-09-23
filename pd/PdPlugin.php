@@ -8,12 +8,12 @@
  * @copyright Copyright (c) 2016 Piccirilli Dorsey, Inc.
  * @link      http://picdorsey.com
  * @package   Pd
- * @since     1.0.0
+ * @since     1.0.1
  */
 
 namespace Craft;
 
-class PdPlugin extends BasePlugin
+class PDPlugin extends BasePlugin
 {
     /**
      * @return mixed
@@ -59,7 +59,7 @@ class PdPlugin extends BasePlugin
      */
     public function getVersion()
     {
-        return '1.0.0';
+        return '1.0.1';
     }
 
     /**
@@ -99,9 +99,9 @@ class PdPlugin extends BasePlugin
      */
     public function addTwigExtension()
     {
-        Craft::import('plugins.pd.twigextensions.PdTwigExtension');
+        Craft::import('plugins.pd.twigextensions.PDTwigExtension');
 
-        return new PdTwigExtension();
+        return new PDTwigExtension();
     }
 
     /**
